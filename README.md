@@ -6,6 +6,7 @@
 - Metasploit Framework
 - Apache server
 - Postgresql 
+- Linux OS
 
 **Purpose**
 
